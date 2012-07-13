@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2012.6.1)  13 JUL 2012 10:25
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.6.1)  13 JUL 2012 11:30
 entering extended mode
  %&-line parsing enabled.
 **proposal.tex
@@ -39,11 +39,31 @@ File: size10.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
 \f@ncyO@olf=\skip50
 \f@ncyO@orf=\skip51
 )
-(/usr/share/texmf/tex/latex/lastpage/lastpage.sty
-Package: lastpage 1994/06/25 v0.1b LaTeX2e package for refs to last page number
- (JPG)
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
 )
-No file proposal.aux.
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+
+(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+) (./proposal.aux)
 \openout1 = `proposal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -75,66 +95,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--19
 
 [1
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
+{/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<msr3_h20_r1_basequal.png, id=12, 803.0pt x 602.25pt>
+File: msr3_h20_r1_basequal.png Graphic file (type png)
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-
- []
-
-)
-Runaway argument?
-{ \par \end {document} 
-! File ended while scanning use of \@xdblarg.
-<inserted text> 
-                \par 
-<*> proposal.tex
-                
-? 
-! Interruption.
-<*> proposal.tex
-                
-? X
- 
+<use msr3_h20_r1_basequal.png> [2 <./msr3_h20_r1_basequal.png (PNG copy)>]
+(./proposal.aux) ) 
 Here is how much of TeX's memory you used:
- 369 strings out of 256217
- 3973 string characters out of 1917096
- 53310 words of memory out of 1500000
- 3724 multiletter control sequences out of 10000+200000
+ 720 strings out of 256216
+ 8301 string characters out of 1917073
+ 60515 words of memory out of 1500000
+ 4051 multiletter control sequences out of 10000+200000
  8280 words of font info for 29 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 23i,6n,43p,1177b,187s stack positions out of 5000i,500n,6000p,200000b,15000s
-Output written on proposal.dvi (1 page, 3172 bytes).
+ 25i,10n,43p,1383b,189s stack positions out of 5000i,500n,6000p,200000b,15000s
+</usr/share/texmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/sha
+re/texmf/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky
+/cm/cmr12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr17.pfb></usr/share/te
+xmf/fonts/type1/bluesky/cm/cmr7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cm
+ti10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti12.pfb>
+Output written on proposal.pdf (2 pages, 61591 bytes).
+PDF statistics:
+ 38 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+
