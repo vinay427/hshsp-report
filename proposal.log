@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=pdflatex 2012.7.15)  15 JUL 2012 13:21
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=pdflatex 2012.7.15)  15 JUL 2012 14:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -169,52 +169,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--19
 
 [1
 
-{/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<msr3_h20_r1_basequal.png, id=13, 803.0pt x 602.25pt>
+{/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+<msr3_h20_r1_basequal.png, id=16, 803.0pt x 602.25pt>
 File: msr3_h20_r1_basequal.png Graphic file (type png)
 
 <use msr3_h20_r1_basequal.png>
-Package pdftex.def Info: msr3_h20_r1_basequal.png used on input line 24.
+Package pdftex.def Info: msr3_h20_r1_basequal.png used on input line 27.
 (pdftex.def)             Requested size: 240.90186pt x 180.67639pt.
 
-<msr3_h202_r1_basequal.png, id=14, 803.0pt x 602.25pt>
+<msr3_h202_r1_basequal.png, id=17, 803.0pt x 602.25pt>
 File: msr3_h202_r1_basequal.png Graphic file (type png)
 
 <use msr3_h202_r1_basequal.png>
-Package pdftex.def Info: msr3_h202_r1_basequal.png used on input line 33.
+Package pdftex.def Info: msr3_h202_r1_basequal.png used on input line 36.
 (pdftex.def)             Requested size: 240.90186pt x 180.67639pt.
- [2 <./msr3_h20_r1_basequal.png (PNG copy)>]
+
 <ush20_h20_r1_basequal.png, id=18, 803.0pt x 602.25pt>
 File: ush20_h20_r1_basequal.png Graphic file (type png)
 
 <use ush20_h20_r1_basequal.png>
-Package pdftex.def Info: ush20_h20_r1_basequal.png used on input line 42.
+Package pdftex.def Info: ush20_h20_r1_basequal.png used on input line 45.
 (pdftex.def)             Requested size: 240.90186pt x 180.67639pt.
-
-<ush20_h202_r1_basequal.png, id=19, 803.0pt x 602.25pt>
+ [3 <./msr3_h20_r1_basequal.png (PNG copy)> <./msr3_h202_r1_basequal.png (PNG c
+opy)>]
+<ush20_h202_r1_basequal.png, id=22, 803.0pt x 602.25pt>
 File: ush20_h202_r1_basequal.png Graphic file (type png)
 
 <use ush20_h202_r1_basequal.png>
-Package pdftex.def Info: ush20_h202_r1_basequal.png used on input line 51.
+Package pdftex.def Info: ush20_h202_r1_basequal.png used on input line 54.
 (pdftex.def)             Requested size: 240.90186pt x 180.67639pt.
- [3 <./msr3_h202_r1_basequal.png (PNG copy)> <./ush20_h20_r1_basequal.png (PNG 
-copy)>] [4 <./ush20_h202_r1_basequal.png (PNG copy)>] (./proposal.aux) ) 
+ [4 <./ush20_h20_r1_basequal.png (PNG copy)> <./ush20_h202_r1_basequal.png (PNG
+ copy)>] (./proposal.aux) ) 
 Here is how much of TeX's memory you used:
  1638 strings out of 493488
  22741 string characters out of 3146892
- 80465 words of memory out of 3000000
+ 81465 words of memory out of 3000000
  4946 multiletter control sequences out of 15000+200000
  8280 words of font info for 29 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,11n,43p,1383b,262s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/s
-hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
-sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf
--dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on proposal.pdf (4 pages, 139798 bytes).
+ 37i,11n,43p,1889b,275s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
+fb>
+Output written on proposal.pdf (4 pages, 139434 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream
