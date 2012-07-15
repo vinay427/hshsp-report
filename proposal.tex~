@@ -3,7 +3,7 @@
 \setlength{\headheight}{15.2pt}
 \pagestyle{fancy}
 \begin{document}
-\rhead{\fancyplain{}Page {\thepage} of}
+\rhead{\fancyplain{}Page {\thepage}}
 \lhead{\fancyplain{}Section {\thesection}}
 \title{Bioinformatics Analysis of Effect of Hydrogen Peroxide on \emph{Beta vulgaris} Seeds}
 \author{Vinay Hiremath}
@@ -61,7 +61,7 @@ USH20 set in hydrogen peroxide: \\
 
 \subsection{Genome Information:}
 
-	\begin{tabular}{| l | | c | r |}
+	\begin{tabular}{| l | c | r |}
 	\hline
 	Genome & File Size & Bowtie2 Index Size \\ \hline
 	RefBeet 0.9 & 601906023B, 575MB & 719MB \\ \hline
