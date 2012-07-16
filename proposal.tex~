@@ -23,14 +23,12 @@
 \section{Initial Results}
 
 \subsection{FASTQC Format Example}
-	This example is from the MSR3 data set soaked in water. As described, the FASTQ format bundles quality scores, which are displayed on the fourth line. The first line is a systematic identifier created by the Illumina sequencing system, while the second line is the raw sequenced bases and the third line is an optional description line.\\
+	This example is from the MSR3 data set soaked in water. As described, the FASTQ format bundles quality scores, which are displayed on the fourth line. The first line is a systematic identifier created by the Illumina sequencing system, while the second line is the raw sequenced bases and the third line is an optional description line. Excerpts of two sample sequences are shown here. \\
 \begin{verbatim}
-{@HWI-ST957:100:D0V52ACXX:5:1101:1226:2111 1:N:0:CAGATC
+@HWI-ST957:100:D0V52ACXX:5:1101:1226:2111 1:N:0:CAGATC
 GTGGGCATGAAGTGTGGGGATAGCATGGACTCGCCAGTTGTATCGGCGGTCGTGGGGGAGGGGGGC...
 +
 ;?@DFDDAHFDDAEAEHIICCCEHHDIJEHJJIJJHGFHHIIJGGIIIF#################...
-
-\\
 
 @HWI-ST957:100:D0V52ACXX:5:1101:1219:2188 1:N:0:CAGATC
 GTGAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAA...
@@ -40,64 +38,65 @@ GTGAGCATACCTGTCGGGACCCGAAAGATGGTGAACTATGCCTGAGCGGGGCGAAGCCAGAGGAAA...
 
 
 \subsection{Sequence Output Information}
-	These data graphs represent the Phred quality scores output from the Illumina Genome sequencing system. They are created using the FASTQC toolkit, which handles the FASTQ format. The graphs show the quality along each 100bp read of the full sequence, as the sequencing machines that were used handle 100bp reads. \\
-
-\begin{center}
+	These data graphs represent the Phred quality scores output from the Illumina Genome sequencing system. They are created using the FASTQC toolkit, which handles the FASTQ format. The graphs show the quality along each 100bp read of the full sequence, as the sequencing machines that were used handle 100bp reads.
+\newpage
 MSR3 set in water: \\
 \includegraphics[scale=0.3]{msr3_h20_r1_basequal.png} \\
 	\begin{tabular}{| l | r |}
 	\hline
 	Total sequences & 24155194 \\ \hline
-	Sequence length & 100 \\ \hline
-	\% GC content & 48 \\ \hline
-	\end{tabular}
-
+	Sequence length & 100bp \\ \hline
+	GC content & 48\% \\ \hline
+	\end{tabular} \linebreak
+\\
 MSR3 set in hydrogen peroxide: \\
 \includegraphics[scale=0.3]{msr3_h202_r1_basequal.png} \\
 	\begin{tabular}{| l | r |}
 	\hline
 	Total sequences & 25694416 \\ \hline
-	Sequence length & 100 \\ \hline
-	\% GC content & 49 \\ \hline
-	\end{tabular}
-	
+	Sequence length & 100bp \\ \hline
+	GC content & 49\% \\ \hline
+	\end{tabular} \linebreak
+\newpage
 USH20 set in water: \\
 \includegraphics[scale=0.3]{ush20_h20_r1_basequal.png} \\
 	\begin{tabular}{| l | r |}
 	\hline
 	Total sequences & 28485306 \\ \hline
-	Sequence length & 100 \\ \hline
-	\% GC content & 44 \\ \hline
-	\end{tabular}
-
+	Sequence length & 100bp \\ \hline
+	GC content & 44\% \\ \hline
+	\end{tabular} \linebreak
+\\
 USH20 set in hydrogen peroxide: \\
 \includegraphics[scale=0.3]{ush20_h202_r1_basequal.png} \\
 	\begin{tabular}{| l | r |}
 	\hline
 	Total sequences & 23853050 \\ \hline
-	Sequence length & 100 \\ \hline
-	\% GC content & 45 \\ \hline
-	\end{tabular}
-\end{center}
-
+	Sequence length & 100bp \\ \hline
+	GC content & 45\% \\ \hline
+	\end{tabular} \linebreak
+\newpage
 \subsection{Bowtie2 Index Information for MSR3:}
 
-\subsection{Genome Information:}
+\subsection{Genome Processing File Sizes:}
 
-	\begin{tabular}{| l | c | r |}
+	\begin{tabular}{| l | c | c | c | r |}
 	\hline
-	Genome & File Size & Bowtie2 Index Size \\ \hline
-	RefBeet 0.9 & 601906023B, 575MB & 719MB \\ \hline
-	SAMS & 6261667B, 6.0MB & 17.3MB \\ \hline
+	Genome Name & File Size & Bowtie2 Index & Tophat Index & Cufflinks Output\\ \hline
+	RefBeet 0.9 & 601906023B, 575MB & 719MB & &  \\ \hline
+	SAMS & 6261667B, 6.0MB & 17.3MB & &  \\ \hline
 	\end{tabular}
+\newline
 
-%\subsection{Tophat Assembly Information:}
+%\section{Data Processing}
+
+
 
 %\subsection{Cufflinks Index Information:}
 
 %\subsection{Cuffdiff Output Information:}
 
-%\section{Data Processing}
+
 
 %\subsection{Example of BLAST Database:}
 
